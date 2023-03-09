@@ -12,7 +12,7 @@ Demo URL - https://arena.webgurus.co.za/wp/
 
 - Application Bundle Included
 
-![Resposive Design](screen1.jpg, screen2.jpg)
+![Resposive Design](screen1.jpg)
 
 - PWA (Progressive Web App - Wordpress Parent)
 
