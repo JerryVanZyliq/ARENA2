@@ -1,0 +1,21 @@
+import http.client
+
+conn = http.client.HTTPSConnection("lexper.p.rapidapi.com")
+
+headers = {
+    'X-RapidAPI-Key': "ff5ca5b668mshfb582ace24a7b68p10e43ajsn4dd1a8590d79",
+    'X-RapidAPI-Host': "lexper.p.rapidapi.com"
+    }
+
+conn.request("GET", "/v1.1/extract?url=https%3A%2F%2Farena.webgurus.co.za%2Fwp%2F&js_timeout=30&media=true", headers=headers)
+
+conn.request("GET", "/v1.1/extract?url=https%3A%2F%2Farena.webgurus.co.za%2Fwp%2F2023%2F02%2F24%2Four-arena%2F&js_timeout=30&media=true", headers=headers)
+
+conn.request("GET", "/v1.1/extract?url=https%3A%2F%2Farena.webgurus.co.za%2Fwp%2F2023%2F02%2F24%2Fmore-arena%2F&js_timeout=30&media=true", headers=headers)
+
+conn.request("GET", "/v1.1/extract?url=https%3A%2F%2Farena.webgurus.co.za%2Fwp%2Fcontact%2F&js_timeout=30&media=true", headers=headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
