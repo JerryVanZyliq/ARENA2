@@ -2,7 +2,7 @@
 ARENA BLOG App by Jerry Van Zyl
 ## Description
 
-This is a small web application for displaying the Arena Blog.
+This is a small web application for displaying the Arena Blog. The Wordpress Blog can be used as the Parent with the Child being a clone of a template page from the Parent utilizing the data mining from the API. WP is already PWA ready.
 Demo URL - https://arena.webgurus.co.za/wp/
 
 
@@ -12,9 +12,9 @@ Demo URL - https://arena.webgurus.co.za/wp/
 
 - Application Bundle Included
 
-![Resposive Design](screen1.jpg)
+![Resposive Design](screen1.jpg, screen2.jpg)
 
-- PWA (Progressive Web App)
+- PWA (Progressive Web App - Wordpress Parent)
 
 - Image Lazy Loading
 
