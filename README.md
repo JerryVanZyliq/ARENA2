@@ -3,7 +3,7 @@ ARENA BLOG App by Jerry Van Zyl
 ## Description
 
 This is a small web application for displaying the Arena Blog.
-Demo URL - https://iqs-pace-x.vercel.app
+Demo URL - https://arena.webgurus.co.za/wp/
 
 
 ## Features
